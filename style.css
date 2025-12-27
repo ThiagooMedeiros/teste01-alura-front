@@ -2,8 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
-  color: #ffffff;
 }
 
 body {
@@ -13,6 +11,8 @@ body {
   margin: 0 auto;
 
   font-family: "Poppins", sans-serif;
+
+  color: #ffffff;
 }
 
 header {
