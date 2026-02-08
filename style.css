@@ -19,7 +19,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 80px;
+  padding: 60px 80px;
 }
 
 section {
@@ -33,9 +33,28 @@ h1 {
   font-weight: bold;
   text-align: center;
 
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 h1 > span {
   color: #9747ff;
+}
+
+p {
+  font-size: 24px;
+  text-align: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 18px;
+
+  margin: 40px 0;
+  padding: 24px 48px;
+
+  border-radius: 50px;
+
+  background-color: #9747ff;
 }
