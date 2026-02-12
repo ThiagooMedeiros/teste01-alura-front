@@ -19,7 +19,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 60px 80px;
+  padding: 75px 80px 60px;
 }
 
 section {
@@ -70,4 +70,41 @@ section > img {
   display: block;
 
   margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 65px 60px 72px;
+  }
+
+  h1 {
+    max-width: 648px;
+  }
+
+  p {
+    width: 648px;
+  }
+}
+@media (max-width: 375px) {
+  header {
+    padding: 32px 8px 16px;
+  }
+
+  h1 {
+    font-size: 40px;
+    width: 310px;
+  }
+
+  p {
+    font-size: 20px;
+    width: 310px;
+  }
+
+  a {
+    font-size: 20px;
+  }
+
+  section img {
+    width: 340px;
+  }
 }
